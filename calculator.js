@@ -1,5 +1,5 @@
 let display = document.getElementById('display');
 
-let buttons = document.getElementsByClassName('button');
+let buttons = Array.from(document.getElementsByClassName('button'));
 
 console.log(buttons);
